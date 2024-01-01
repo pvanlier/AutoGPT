@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+alias python=python3.10
+
 function find_python_command() {
     if command -v python3 &> /dev/null
     then
